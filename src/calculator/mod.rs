@@ -1,5 +1,8 @@
-mod mahjong;
+mod block;
+mod hai;
+mod tehai;
 
-pub use mahjong::{
-    Hai, MachiCondition, Mentsu, Taatsu, Tehai, Toitsu, Ukihai,
-};
+
+pub use block::{Mentsu, Taatsu, Toitsu, Ukihai};
+pub use hai::Hai;
+pub use tehai::{MachiCondition, Tehai};
